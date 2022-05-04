@@ -3,8 +3,8 @@ import logging
 import coloredlogs
 
 from Coach import Coach
-from connect4.Connect4Game import Connect4Game
-from connect4.tensorflow.NNet import NNetWrapper as nn
+from connectX.Connect4Game import Connect4Game
+from connectX.tensorflow.NNet import NNetWrapper as nn
 from utils import dotdict
 
 log = logging.getLogger(__name__)
