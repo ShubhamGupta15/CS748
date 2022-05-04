@@ -59,7 +59,7 @@ class Connect4Game(Game):
         """Board is left/right board symmetric"""
         return [(board, pi), (board[:, ::-1], pi[::-1])]
 
-    def stringRepresentation(self, board):s
+    def stringRepresentation(self, board):
         return board.tostring()
 
     @staticmethod
