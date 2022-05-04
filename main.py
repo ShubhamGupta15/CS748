@@ -30,7 +30,7 @@ args = dotdict({
 
 
 def main():
-    log.info('Loading %s...', Game.__name__)
+    log.info('Loading %s...', Connect4Game.__name__)
     g = Connect4Game()
 
     log.info('Loading %s...', nn.__name__)
