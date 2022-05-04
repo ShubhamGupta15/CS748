@@ -9,7 +9,8 @@ sys.path.append('../../')
 from utils import *
 from NeuralNet import NeuralNet
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 from .Connect4NNet import Connect4NNet as onnet
 
 args = dotdict({
